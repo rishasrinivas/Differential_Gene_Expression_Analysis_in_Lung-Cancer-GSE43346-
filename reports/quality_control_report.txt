@@ -1,0 +1,36 @@
+QUALITY CONTROL SUMMARY REPORT
+================================
+
+Date: 2025-09-21
+Dataset: GSE43346
+
+SAMPLE INFORMATION:
+- Total samples: 68
+- Normal samples: 43
+- Cancer samples: 25
+- Unknown samples: 0
+
+PROBE INFORMATION:
+- Initial probes: 54675
+- Final probes (after filtering): 49207
+- Probes removed: 5468
+
+QUALITY METRICS:
+- Outliers detected: 4
+- PC1 variance explained: 11.4%
+- PC2 variance explained: 7.7%
+- Data transformation: none
+
+FILES GENERATED:
+- figures/01_sample_distribution.pdf
+- figures/02_density_plots.pdf
+- figures/03_pca_analysis.pdf
+- figures/04_sample_correlation.pdf
+- figures/05_hierarchical_clustering.pdf
+- figures/06_outlier_detection.pdf
+
+PROCESSED DATA FILES:
+- data/processed/expression_matrix_processed.csv
+- data/processed/sample_metadata_processed.csv
+- data/processed/feature_data_processed.csv
+- data/processed/pca_results.RData

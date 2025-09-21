@@ -1,0 +1,58 @@
+GENE NETWORK ANALYSIS REPORT
+===========================
+
+Analysis Date: 2025-09-21 11:32:38
+Dataset: GSE43346 (Small Cell Lung Cancer)
+
+NETWORK CONSTRUCTION:
+- Input genes: 200
+- Correlation threshold: 0.7
+- Network nodes: 200
+- Network edges: 17707
+- Network density: 0.8898
+
+NETWORK PROPERTIES:
+- Connected: True
+- Connected components: 1
+- Largest component size: 200
+
+TOP HUB GENES:
+- ORC6 (score: 1.215, degree: 199)
+- RFC4 (score: 1.215, degree: 199)
+- STIL (score: 1.215, degree: 199)
+- ECT2 (score: 1.215, degree: 199)
+- RFC3 (score: 1.215, degree: 199)
+- SKA2 (score: 1.215, degree: 199)
+- ITGB3BP (score: 1.215, degree: 199)
+- FBXO5 (score: 1.215, degree: 199)
+- DNA2 (score: 1.215, degree: 199)
+- RAD51AP1 (score: 1.215, degree: 199)
+
+COMMUNITY DETECTION:
+- Louvain communities: 3
+- Average community size: 66.7
+
+FILES GENERATED:
+VISUALIZATIONS:
+- figures/26_coexpression_network_visualization.*
+- figures/27_correlation_heatmap.*
+- figures/28_*_pathway_network.* (if pathway data available)
+
+DATA FILES:
+- results/hub_genes.csv
+- results/coexpression_network_nodes.csv
+- results/coexpression_network_edges.csv
+- results/coexpression_network.graphml
+
+BIOLOGICAL INTERPRETATION:
+The network analysis reveals:
+- Hub genes that may play central roles in lung cancer
+- Gene modules (communities) with similar expression patterns
+- Co-expression relationships that suggest functional interactions
+- Potential therapeutic targets based on network centrality
+
+NEXT STEPS:
+1. Import GraphML file into Cytoscape for advanced visualization
+2. Validate hub genes through literature review
+3. Perform experimental validation of key network relationships
+4. Integrate with protein-protein interaction data

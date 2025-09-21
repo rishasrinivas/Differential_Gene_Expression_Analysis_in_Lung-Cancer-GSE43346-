@@ -1,0 +1,60 @@
+DIFFERENTIAL EXPRESSION ANALYSIS REPORT
+======================================
+
+Analysis Date: 2025-09-21
+Dataset: GSE43346
+Analysis Method: limma (linear models for microarray data)
+
+ANALYSIS PARAMETERS:
+- Significance threshold (FDR): 0.05
+- Fold change threshold (|log2FC|): 1
+- Samples analyzed: 68
+- Probes analyzed: 49207
+
+SAMPLE DISTRIBUTION:
+- Normal samples: 43
+- Cancer samples: 25
+
+DIFFERENTIAL EXPRESSION RESULTS:
+- Total significant genes: 9901
+- Upregulated genes (Cancer vs Normal): 4133
+- Downregulated genes (Cancer vs Normal): 5768
+- Not significant genes: 39306
+
+TOP 10 UPREGULATED GENES:
+- RFC4 (log2FC = 2.92 , FDR = 2.31e-23 )
+- ECT2 (log2FC = 4.21 , FDR = 1.25e-22 )
+- STIL (log2FC = 3.87 , FDR = 3.29e-22 )
+- RRM1 (log2FC = 2.79 , FDR = 3.39e-22 )
+- FBXO5 (log2FC = 3.73 , FDR = 4.19e-21 )
+- SKA2 (log2FC = 2.1 , FDR = 4.91e-21 )
+- SNRPD1 (log2FC = 2.36 , FDR = 1.33e-20 )
+- RFC3 (log2FC = 2.47 , FDR = 1.77e-20 )
+- RMI1 (log2FC = 2.28 , FDR = 7.62e-20 )
+- CENPF (log2FC = 3.84 , FDR = 1.20e-19 )
+
+TOP 10 DOWNREGULATED GENES:
+- LRP1 (log2FC = -3.2 , FDR = 1.21e-16 )
+- ITPR1 (log2FC = -3.74 , FDR = 2.14e-16 )
+- CST3 (log2FC = -2.81 , FDR = 2.86e-16 )
+- NR1H2 (log2FC = -1.88 , FDR = 7.26e-16 )
+- MIR6883///PER1 (log2FC = -2.92 , FDR = 8.93e-16 )
+- DNAJB12 (log2FC = -1.76 , FDR = 1.43e-15 )
+- CLU (log2FC = -5.37 , FDR = 2.03e-15 )
+- ZYX (log2FC = -3.11 , FDR = 2.68e-15 )
+- CLU (log2FC = -5.11 , FDR = 5.42e-15 )
+- ANXA6 (log2FC = -2.61 , FDR = 6.71e-15 )
+
+OUTPUT FILES GENERATED:
+- figures/07_volcano_plot.pdf
+- figures/08_ma_plot.pdf
+- figures/09_top_genes_heatmap.pdf
+- figures/10_top_genes_expression.pdf
+
+DATA FILES GENERATED:
+- data/results/differential_expression_all_results.csv
+- data/results/significant_genes.csv
+- data/results/upregulated_genes.csv
+- data/results/downregulated_genes.csv
+- data/results/limma_analysis_results.RData
+- data/results/*_gene_list.txt (for pathway analysis)
